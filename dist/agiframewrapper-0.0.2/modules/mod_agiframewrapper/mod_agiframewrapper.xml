@@ -2,12 +2,12 @@
 <extension type="module" version="3.1" client="site" method="upgrade">
 	<name>mod_agiframewrapper</name>
 	<author>Astrid Günther</author>
-	<creationDate>##DATE##</creationDate>
-	<copyright>Copyright (C) ##YEAR## Open Source Matters. All rights reserved.</copyright>
+	<creationDate>2018-12-08</creationDate>
+	<copyright>Copyright (C) 2018 Open Source Matters. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later;</license>
 	<authorEmail>info@astrid-guenther.de</authorEmail>
 	<authorUrl>www.astrid-guenther.de</authorUrl>
-	<version>##VERSION##</version>
+	<version>0.0.2</version>
 	<description>MOD_WRAPPER_XML_DESCRIPTION</description>
 	<files>
 		<filename module="mod_agiframewrapper">mod_agiframewrapper.php</filename>
