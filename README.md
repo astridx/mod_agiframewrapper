@@ -7,7 +7,7 @@ have to be confirmed with a button.
 # How to use in backend
 To add a new Agiframewrapper module or edit an existing Agiframewrapper module, 
 navigate to the Module Manager and select `Extensions -> Modules`. 
-Click the New button and click on Agiframewrapper in the modal popup window.
+Click the `New` button and click on Agiframewrapper in the modal popup window.
 
 ![module site test administration](https://user-images.githubusercontent.com/9974686/49697139-074d6d80-fbb4-11e8-924e-246f07778229.png)
 
