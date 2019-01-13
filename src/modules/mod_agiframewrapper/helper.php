@@ -13,7 +13,7 @@ defined('_JEXEC') or die;
 /**
  * Helper for mod_agiframewrapper
  *
- * @since  1.5
+ * @since  1.0
  */
 class ModAgiframewrapperHelper
 {

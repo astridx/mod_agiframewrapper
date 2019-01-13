@@ -19,7 +19,7 @@ More information about the parameters you can find in the documentation for
 
 When opened for the first time, a gray area is displayed. 
 To be exact, the `JOOMLA/modules/mod_agiframewrapper/src/modules/mod_agiframewrapper/index.html` file is displayed. 
-If you have knowledge of HTML, you can edit this area by editing 
+If you know HTML, you can edit this area by editing 
 the file `JOOMLA/modules/mod_agiframewrapper/src/modules/mod_agiframewrapper/index.html`. 
 Above the gray area is a button.
 
