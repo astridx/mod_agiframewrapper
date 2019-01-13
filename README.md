@@ -34,3 +34,13 @@ After that, you can deactiate the iframe content with the button - if you like.
 ## How can I change the text of the buttons?
 You can make an [language override](https://docs.joomla.org/J3.x:Language_Overrides_in_Joomla) of the language strings  
 `MOD_WRAPPER_INHALT_AKTIVIEREN` and `MOD_WRAPPER_INHALT_DEAKTIVIEREN`
+
+# Support and New Features
+
+This Joomla! Extension is a simple feature. But it is most likely, that your requirements are 
+already covered or require very little adaptation.
+
+If you have more complex requirements, need new features or just need some support, 
+I am open to doing paid custom work and support around this Joomla! Extension. 
+
+Contact me and we'll sort this out!
