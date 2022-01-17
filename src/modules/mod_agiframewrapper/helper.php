@@ -38,27 +38,20 @@ class ModAgiframewrapperHelper
 
 		$url = $params->get('url');
 
-		if ($params->get('add'))
-		{
+		if ($params->get('add')) {
 			// Adds 'http://' if none is set
-			if (strpos($url, '/') === 0)
-			{
+			if (strpos($url, '/') === 0) {
 				// Relative URL in component. use server http_host.
 				$url = 'http://' . $_SERVER['HTTP_HOST'] . $url;
-			}
-			elseif (strpos($url, 'http') === false && strpos($url, 'https') === false)
-			{
+			} else if (strpos($url, 'http') === false && strpos($url, 'https') === false) {
 				$url = 'http://' . $url;
 			}
 		}
 
 		// Auto height control
-		if ($params->def('height_auto'))
-		{
+		if ($params->def('height_auto')) {
 			$load = 'onload="iFrameHeight(this)"';
-		}
-		else
-		{
+		} else {
 			$load = '';
 		}
 
