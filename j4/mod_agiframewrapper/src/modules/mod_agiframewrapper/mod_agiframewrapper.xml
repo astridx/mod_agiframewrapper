@@ -2,22 +2,23 @@
 <extension type="module" client="site" method="upgrade">
 	<name>mod_agiframewrapper</name>
 	<author>Astrid Günther</author>
-	<creationDate>##DATE##</creationDate>
-	<copyright>Copyright (C) ##YEAR## Astrid Günther. All rights reserved.</copyright>
+	<creationDate>2022-04-06</creationDate>
+	<copyright>Copyright (C) 2022 Astrid Günther. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later;</license>
 	<authorEmail>info@astrid-guenther.de</authorEmail>
 	<authorUrl>www.astrid-guenther.de</authorUrl>
-	<version>##VERSION##</version>
+	<version>4.0.0</version>
 	<namespace path="src">AG\Module\Agiframewrapper</namespace>
 	<description>MOD_WRAPPER_XML_DESCRIPTION</description>
 	<files>
-		<filename module="mod_agiframewrapper">mod_agiframewrapper.php</filename>
 		<folder>language</folder>
-		<folder>tmpl</folder>
-		<filename>helper.php</filename>
+<file>mod_agiframewrapper.xml</file>
+<folder>tmpl</folder>
+<file module="mod_agiframewrapper">mod_agiframewrapper.php</file>
+<file>index.html</file>
+<folder>src</folder>
 	</files>
-	<media destination="mod_agiframewrapper" 
-               folder="media/mod_agiframewrapper">
+	<media destination="mod_agiframewrapper" folder="media/mod_agiframewrapper">
 		<folder>js</folder>
 	</media>
 	<help key="JHELP_EXTENSIONS_MODULE_MANAGER_WRAPPER" />
@@ -165,11 +166,7 @@
 		</fields>
 	</config>
 	<updateservers>
-		<server 
-                    type="extension" 
-                    name="mod_agiframewrapper Update Site">
-                    https://raw.githubusercontent.com/astridx/mod_agiframewrapper/master/agiframewrapper-update4.xml
-                </server>
+		<server type="extension" name="mod_agiframewrapper Update Site">https://raw.githubusercontent.com/astridx/mod_agiframewrapper/master/agiframewrapper-update4.xml</server>
 	</updateservers> 
 	<changelogurl>raw.githubusercontent.com/astridx/mod_agiframewrapper/master/changelog.xml</changelogurl>
 </extension>
